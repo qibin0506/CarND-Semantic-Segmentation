@@ -63,8 +63,21 @@ Within `main.py`, there are a few optional sections you can also choose to imple
 3. Apply the trained model to a video. This project only involves performing inference on a set of test images, but you can also try to utilize it on a full video.
  
 ### Using GitHub and Creating Effective READMEs
-If you are unfamiliar with GitHub , Udacity has a brief [GitHub tutorial](http://blog.udacity.com/2015/06/a-beginners-git-github-tutorial.html) to get you started. Udacity also provides a more detailed free [course on git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775).
 
-To learn about REAMDE files and Markdown, Udacity provides a free [course on READMEs](https://www.udacity.com/courses/ud777), as well. 
+#### Does the project train the model correctly?
 
-GitHub also provides a [tutorial](https://guides.github.com/features/mastering-markdown/) about creating Markdown files.
+at the end of this training, the loss is smaller than 0.5.
+
+#### Does the project use reasonable hyperparameters?
+
+I set 50 epoches and batch size is 10.
+
+#### Does the project correctly label the road?
+
+the result
+
+![](./result/1.png)
+![](./result/2.png)
+![](./result/3.png)
+![](./result/4.png)
+![](./result/5.png)
